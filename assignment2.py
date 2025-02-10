@@ -10,7 +10,7 @@ def downloadData(url):
 
 def processData(data):
     personData = {}
-    logger = logging.getLogger("Week2 - Assignment")
+    logger = logging.getLogger("Assignment2")
     lines = data.splitlines()
     reader = csv.reader(lines)
     next(reader)  # Skip header
